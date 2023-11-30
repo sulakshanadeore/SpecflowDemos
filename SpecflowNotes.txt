@@ -1,0 +1,95 @@
+Testing Phase:
+
+1)Requirement Collection(understanding/apprehend reequirement)
+2)Feasibiltiy Study-----
+3) Development
+4)Testing: It is a process of checking/evaluating a system/app/project,whcih has multiple componenets which need to be checked wheteher they satisfy the given requirement.
+
+Executing the sytem in order to identify any gaps,errors or bugs in regards to the actual requirement.
+
+Error: mistake in coding is error by programmer.
+Defect: Mismatch between actual and expected value by programmer.
+Bug:an error found by the tester in the testing phase is a bug.
+Failure: client finds the defect it is failure.
+
+Verification: they check the authenticity of the document.
+Validation: check whether it is genuine.
+
+
+Verification 				vs 			Validation
+*Developers							Testers	
+*Takes place first      					Takes place after verification
+*Walkthrough the product process, inspect the process 		Check whether it meets the requirements
+
+
+
+
+Unit Testing of the use case.
+Chunks are put to test.
+Chunks of code---units-----unit  tesing
+Multiple units------Integration Testing
+Performance Testing
+
+
+Software tester
+Software developer
+Project Lead/Manager
+End User
+
+Testing:
+1) Manual: manual written script implemented step by step.
+2) Automation: scripts are written passed to the tool.
+
+
+Manual Testing Example:
+Login:
+
+1)Test Case ID:TC-01-Verify Login functionality for user
+
+2)Test Case Description: test for logging into the app:
+Given: A valid username and password for the app
+When: User enters the username and password on the login page
+Then:User should be able to login to the app successfully, and the Home page should be shown.
+
+
+3)Pre condition: Testing/production environment the same login page must be displayed.
+
+4) Test steps:
+1) Launch the application
+2) enter  valid username and password
+3) clcik the "login" button
+4) verify that the user has logged in succesfully.
+5) Logout button to logout from the app
+
+
+5)Test Data: IF correct username & password the login, 
+else disaply a message "Incorrect userid/password"
+
+6)Expected result:IF valid username/password then after clicking login button then show home page, else
+show message "Incorrect userid/password" and keep the login page
+
+7)post condtion: cookie---clean up of files if any required.
+
+
+8)actual result:IF valid username/password then after clicking login button then show home page
+9)status:Pass/Fail
+-----------------------------------------------------------------------
+TDD---Test driven development-----Checking whether code is working or not as expected is TDD.
+1)developer
+2) develoepr to understand the requirement and code for all the test cases of the module/use case assigned to him.
+3) refactor code
+
+
+BDD---behaviour driven developemt---- but the behaviour of the code  as per the user requirement, testing that user requirement is BDD.
+
+login page
+username: Sulakshana
+password:aBc@123
+ 
+
+	submit
+
+
+
+
+Specflow::BDD
